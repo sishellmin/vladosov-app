@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/desktop/venv/bin/python",
+    "php.validate.executablePath": "/usr/bin/php",
+    "files.associations": {
+        "*.php": "php"
+    }
+}

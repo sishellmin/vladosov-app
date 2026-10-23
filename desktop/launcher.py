@@ -35,7 +35,7 @@ def main():
     try:
         webview.create_window(
             "Экономика — Тьютор",
-            f"http://{PHP_HOST}:{PHP_PORT}/index.php",
+            f"http://{PHP_HOST}:{PHP_PORT}/maintenance.php",
             width=1024,
             height=768,
         )

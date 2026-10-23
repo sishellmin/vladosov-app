@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Desktop Tutor",
+            "type": "shell",
+            "command": "${workspaceFolder}/desktop/venv/bin/python",
+            "args": ["${workspaceFolder}/desktop/launcher.py"],
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": []
+        }
+    ]
+}
